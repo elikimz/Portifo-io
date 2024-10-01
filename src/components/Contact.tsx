@@ -1,4 +1,4 @@
-import React from 'react';
+//import React from 'react';
 import Navbar from '../components/Navbar'; // Import the Navbar
 import Footer from '../components/footer'; // Import the Footer';
 const Contact = () => {
@@ -40,7 +40,7 @@ const Contact = () => {
                 className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                 id="message"
                 placeholder="Your Message"
-                rows="4"
+                
               />
             </div>
             <div className="flex items-center justify-between">

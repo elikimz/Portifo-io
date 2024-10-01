@@ -1,11 +1,10 @@
-import React from 'react';
+//import React from 'react';
 import { Link } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import Footer from '../components/footer';
 
 const Hero = () => {
   const imageUrl = 'https://i.postimg.cc/rFR2yQBn/3d-carton-of-boy-going-to-school-ai-photo.jpg'; // Hardcoded image URL
-  const cvLink = 'https://example.com/your-cv.pdf'; // Replace with your actual CV link
 
   return (
     <>
