@@ -49,7 +49,7 @@ const Hero = () => {
         {/* CV Download Section */}
         <div className="mt-6 text-center w-full">
           <a
-            href={"https://drive.google.com/file/d/1D6fnyG2yf4lA7b8WPwPRaDA6hcEz3yvh/view?usp=drive_link"} // Use the CV link variable
+            href={"https://drive.google.com/file/d/1SZXu3V3rbfNB7rI7uE5jcEjXDLCFdzFz/view?usp=sharing"} // Use the CV link variable
             target="_blank" // Open link in a new tab
             rel="noopener noreferrer" // Security feature
             className="bg-primary text-background px-6 py-3 rounded-md text-lg font-semibold hover:bg-secondary transition duration-300"
