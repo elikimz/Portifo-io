@@ -13,7 +13,7 @@ const Footer = () => {
         </div>
         <div className="flex space-x-4 mt-4 md:mt-0">
           <a
-            href="https://www.linkedin.com/in/your-profile" // Replace with your LinkedIn URL
+            href="https://linkedin.com/in/https://www.linkedin.com/feed/" // Replace with your LinkedIn URL
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center hover:text-secondary"
@@ -29,7 +29,7 @@ const Footer = () => {
             <FaGithub size={24} />
           </a>
           <a
-            href="https://twitter.com/your-twitter" // Replace with your Twitter URL
+            href="https://twitter.com/https://x.com/home" // Replace with your Twitter URL
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center hover:text-secondary"
@@ -37,7 +37,7 @@ const Footer = () => {
             <FaTwitter size={24} />
           </a>
           <a
-            href="mailto:christaron091@gmail.com" // Your email
+            href="mailto:elijahkimani1293@gmail.com" // Your email
             className="flex items-center hover:text-secondary"
           >
             <img src="https://img.icons8.com/ios-filled/50/000000/email.png" alt="Email" style={{ width: 24, height: 24 }} />
