@@ -1,9 +1,10 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Hero from './components/Homepage';
-import AboutMe from './components/AboutMe';
 import Projects from './components/Projects';
 import Navbar from './components/Navbar';
 import Contact from './components/Contact';
+import AboutMe from './components/AboutMe';
+import BlogPage from './components/BlogPage';
 
 
 
@@ -15,27 +16,33 @@ import Contact from './components/Contact';
         element: <Hero/>,
         // errorElement: <Error />,
       },
+       {
+        path: 'projects',
+        element: <Projects/>,
+        // errorElement: <Error />,
+       },
+
       {
-        path: 'AboutMe',
+        path: 'navbar',
+        element: <Navbar/>,
+        // errorElement: <Error />,
+      },
+      {
+        path: 'contact',
+        element: <Contact/>,
+        // errorElement: <Error />,
+      },
+     {
+        path: 'about',
         element: <AboutMe/>,
         // errorElement: <Error />,
       },
       {
-        path: 'Projects',
-        element: <Projects/>,
+        path: 'blog',
+        element: <BlogPage/>,
         // errorElement: <Error />,
       },
-      {
-        path: ' Navbar',
-        element: < Navbar/>,
-        // errorElement: <Error />,
-      },
-      {
-        path: 'Contact',
-        element: <Contact/>,
-        // errorElement: <Error />,
-      },
-   
+    
    
    
    

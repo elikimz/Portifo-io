@@ -5,14 +5,14 @@ const Projects = () => {
   // Example projects data
   const projects = [
     {
-      title: 'Project 1',
-      description: 'Description of Project 1. This project is built using React and Node.js.',
-      link: '#',
+      title: 'Gaias Carpets',
+      description: 'A luxurious online store designed to enhance home comfort with exquisite carpet selections. Built with React and Node.js, the platform features a responsive design and smooth animations, providing users with an engaging shopping experience',
+      link: 'https://www.gaiascarpets.store/',
     },
     {
-      title: 'Project 2',
-      description: 'Description of Project 2. This project focuses on utilizing PostgreSQL and Express.',
-      link: '#',
+      title: 'To-Do List Application',
+      description: 'A user-friendly to-do list application designed to help users efficiently manage their tasks and enhance productivity. Built with React, this application features an intuitive interface for adding, editing, and deleting tasks, along with options for categorizing and prioritizing them. Users can easily track their progress and stay organized, ensuring they never miss a deadline. The app emphasizes responsiveness and accessibility, making task management seamless across devices.',
+      link: 'https://to-do-list-rho-one-79.vercel.app/',
     },
     {
       title: 'Project 3',
