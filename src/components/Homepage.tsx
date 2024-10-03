@@ -3,7 +3,7 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/footer';
 
 const Hero = () => {
-  const imageUrl = 'https://i.postimg.cc/rFR2yQBn/3d-carton-of-boy-going-to-school-ai-photo.jpg'; // Hardcoded image URL
+  const imageUrl = 'https://i.postimg.cc/K84d5wsg/kim.jpg'; // Hardcoded image URL
 
   return (
     <>
