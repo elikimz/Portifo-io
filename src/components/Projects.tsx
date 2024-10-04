@@ -22,7 +22,7 @@ const Projects = () => {
     {
       title: 'Weather App',
       description: 'The Weather App is a responsive web application that provides real-time weather information for various locations around the globe. Users can easily input a city name or geographical coordinates (latitude and longitude) to retrieve up-to-date weather data. Designed with a user-friendly interface, this app aims to deliver essential weather details, including temperature, humidity, weather conditions, and wind speed, all while maintaining a visually appealing layout.',
-      link: ' https://vercel.com/elikimzs-projects/weather',
+      link: ' https://weather-wheat-alpha.vercel.app/',
     },
    
   ];
