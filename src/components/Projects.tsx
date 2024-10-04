@@ -15,10 +15,16 @@ const Projects = () => {
       link: 'https://to-do-list-rho-one-79.vercel.app/',
     },
     {
-      title: 'Project 3',
+      title: 'Car Management System',
       description: 'The Car Management System is a comprehensive web-based solution designed to streamline the operations of a car dealership or rental service. The system allows for efficient management of car inventory, customer records, and transaction histories. Key features include adding and editing car listings, tracking car availability, and managing customer bookings. The system offers an intuitive user interface, secure data handling, and real-time updates on vehicle status, ensuring a seamless experience for both administrators and users. This project was built with modern web technologies, focusing on scalability and user-friendliness.',
       link: 'https://final-project-frontend-nz6b.vercel.app/',
     },
+    {
+      title: 'Weather App',
+      description: 'The Weather App is a responsive web application that provides real-time weather information for various locations around the globe. Users can easily input a city name or geographical coordinates (latitude and longitude) to retrieve up-to-date weather data. Designed with a user-friendly interface, this app aims to deliver essential weather details, including temperature, humidity, weather conditions, and wind speed, all while maintaining a visually appealing layout.',
+      link: ' https://vercel.com/elikimzs-projects/weather',
+    },
+   
   ];
 
   return (
