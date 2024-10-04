@@ -1,31 +1,41 @@
-//import React from 'react';
+import { useState } from 'react';
 import Navbar from '../components/Navbar'; // Import the Navbar
 import Footer from '../components/footer';
+
 const Projects = () => {
   // Example projects data
   const projects = [
     {
       title: 'Gaias Carpets',
       description: 'A luxurious online store designed to enhance home comfort with exquisite carpet selections. Built with React and Node.js, the platform features a responsive design and smooth animations, providing users with an engaging shopping experience',
+      additionalInfo: 'This project allows users to browse various carpet styles, filter by category, and enjoy a seamless shopping experience with integrated payment options.',
       link: 'https://www.gaiascarpets.store/',
     },
     {
       title: 'To-Do List Application',
-      description: 'A user-friendly to-do list application designed to help users efficiently manage their tasks and enhance productivity. Built with React, this application features an intuitive interface for adding, editing, and deleting tasks, along with options for categorizing and prioritizing them. Users can easily track their progress and stay organized, ensuring they never miss a deadline. The app emphasizes responsiveness and accessibility, making task management seamless across devices.',
+      description: 'A user-friendly to-do list application designed to help users efficiently manage their tasks and enhance productivity. Built with React, this application features an intuitive interface for adding, editing, and deleting tasks.',
+      additionalInfo: 'The app also includes features for categorizing tasks and setting deadlines, ensuring users can manage their time effectively.',
       link: 'https://to-do-list-rho-one-79.vercel.app/',
     },
     {
       title: 'Car Management System',
-      description: 'The Car Management System is a comprehensive web-based solution designed to streamline the operations of a car dealership or rental service. The system allows for efficient management of car inventory, customer records, and transaction histories. Key features include adding and editing car listings, tracking car availability, and managing customer bookings. The system offers an intuitive user interface, secure data handling, and real-time updates on vehicle status, ensuring a seamless experience for both administrators and users. This project was built with modern web technologies, focusing on scalability and user-friendliness.',
+      description: 'The Car Management System is a comprehensive web-based solution designed to streamline the operations of a car dealership or rental service.',
+      additionalInfo: 'It includes features for managing inventory, customer records, and booking transactions, all in a secure environment.',
       link: 'https://final-project-frontend-nz6b.vercel.app/',
     },
     {
       title: 'Weather App',
-      description: 'The Weather App is a responsive web application that provides real-time weather information for various locations around the globe. Users can easily input a city name or geographical coordinates (latitude and longitude) to retrieve up-to-date weather data. Designed with a user-friendly interface, this app aims to deliver essential weather details, including temperature, humidity, weather conditions, and wind speed, all while maintaining a visually appealing layout.',
-      link: ' https://weather-wheat-alpha.vercel.app/',
+      description: 'The Weather App is a responsive web application that provides real-time weather information for various locations around the globe.',
+      additionalInfo: 'It features a user-friendly interface for inputting city names or coordinates, displaying essential weather data.',
+      link: 'https://weather-wheat-alpha.vercel.app/',
     },
-   
   ];
+
+  const [expandedIndex, setExpandedIndex] = useState<number | null>(null); // State to track expanded cards
+
+  const toggleDescription = (index: number) => {
+    setExpandedIndex(expandedIndex === index ? null : index); // Toggle visibility
+  };
 
   return (
     <>
@@ -34,12 +44,28 @@ const Projects = () => {
         <h2 className="text-4xl font-bold text-dark mb-8 text-center">My Projects</h2>
 
         {/* Display existing projects in card format */}
-        <div className="max-w-4xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {projects.map((project, index) => (
-            <div key={index} className="bg-white shadow-lg rounded-lg p-6">
-              <h3 className="text-2xl font-semibold text-primary mb-2">{project.title}</h3>
-              <p className="text-lg text-dark mb-4">{project.description}</p>
-              <a href={project.link} target="_blank" rel="noopener noreferrer" className="text-blue-500 underline">
+            <div key={index} className="bg-white shadow-lg rounded-lg p-6 flex flex-col justify-between h-full">
+              <div>
+                <h3 className="text-2xl font-semibold text-primary mb-2">{project.title}</h3>
+                <p className="text-lg text-dark mb-4">{project.description}</p>
+                {expandedIndex === index && (
+                  <p className="text-md text-dark mb-4">{project.additionalInfo}</p>
+                )}
+              </div>
+              <button
+                onClick={() => toggleDescription(index)}
+                className="mt-2 text-blue-500 underline"
+              >
+                {expandedIndex === index ? 'See Less' : 'See More'}
+              </button>
+              <a
+                href={project.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-500 underline mt-2"
+              >
                 View Project
               </a>
             </div>
