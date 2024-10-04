@@ -29,6 +29,24 @@ const Projects = () => {
       additionalInfo: 'It features a user-friendly interface for inputting city names or coordinates, displaying essential weather data.',
       link: 'https://weather-wheat-alpha.vercel.app/',
     },
+    {
+      title: 'Dog Gallery Application',
+      description: 'The Dog Gallery Application serves as a comprehensive resource for dog lovers and enthusiasts, showcasing the diversity of dog breeds while providing an engaging and interactive user experience. ',
+      additionalInfo: 'This project highlights my ability to create user-centric applications with a strong focus on performance and design.',
+      link: 'https://dogs-roan-omega.vercel.app/',
+    },
+    {
+      title: 'Cryptocurrency Tracker Application',
+      description: 'The Cryptocurrency Tracker Application serves as a valuable resource for both novice and experienced cryptocurrency investors, providing essential market data and insights to aid decision-making.',
+      additionalInfo: 'This project demonstrates my ability to build feature-rich applications that prioritize user engagement and deliver real-time information in a clean and efficient manner.',
+      link: 'https://crypto-theta-dun.vercel.app/',
+    },
+    {
+      title: 'NASA Astronomy Picture of the Day Application',
+      description: 'The NASA Astronomy Picture of the Day Application serves as a captivating resource for astronomy enthusiasts and the general public alike, offering daily inspiration through the beauty of our universe.',
+      additionalInfo: 'This project highlights my ability to create interactive and visually appealing applications that leverage real-time data while enhancing user engagement and educational value.',
+      link: 'https://www.gaiascarpets.store/',
+    },
   ];
 
   const [expandedIndex, setExpandedIndex] = useState<number | null>(null); // State to track expanded cards
