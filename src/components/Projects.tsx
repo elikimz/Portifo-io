@@ -45,7 +45,7 @@ const Projects = () => {
       title: 'NASA Astronomy Picture of the Day Application',
       description: 'The NASA Astronomy Picture of the Day Application serves as a captivating resource for astronomy enthusiasts and the general public alike, offering daily inspiration through the beauty of our universe.',
       additionalInfo: 'This project highlights my ability to create interactive and visually appealing applications that leverage real-time data while enhancing user engagement and educational value.',
-      link: 'https://www.gaiascarpets.store/',
+      link: 'https://nasa-bay.vercel.app/',
     },
   ];
 
