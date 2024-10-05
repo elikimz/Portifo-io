@@ -47,6 +47,12 @@ const Projects = () => {
       additionalInfo: 'This project highlights my ability to create interactive and visually appealing applications that leverage real-time data while enhancing user engagement and educational value.',
       link: 'https://nasa-bay.vercel.app/',
     },
+    {
+      title: 'Country Data Application',
+      description: 'The Country Data Application is a dynamic React-based web application that provides users with comprehensive information about countries worldwide. ',
+      additionalInfo: 'Utilizing the REST Countries API, the application allows users to explore key details such as population, area, region, and subregion of various countries, all displayed through an intuitive and visually appealing interface.',
+      link: 'https://news-snowy-three.vercel.app/',
+    },
   ];
 
   const [expandedIndex, setExpandedIndex] = useState<number | null>(null); // State to track expanded cards
