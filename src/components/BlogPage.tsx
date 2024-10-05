@@ -27,7 +27,7 @@ const blogPosts: BlogPost[] = [
     id: 2,
     title: 'My Journey as a Full-stack Developer',
     category: 'Experience',
-    date: 'September 25, 2024',
+    date: 'September 24, 2024',
     author: 'Elikim',
     content: `My journey started with learning HTML and CSS in college, followed by diving into JavaScript, React, and backend technologies like Node.js. This journey taught me persistence, debugging skills, and the joy of building...`,
   },
