@@ -48,6 +48,12 @@ const Projects = () => {
       link: 'https://nasa-bay.vercel.app/',
     },
     {
+      title: 'Land and House Sales Website',
+      description: 'The Land and House Sales Website is a comprehensive online platform designed to facilitate the buying and selling of residential properties and land. ',
+      additionalInfo: 'This project aims to provide an intuitive and user-friendly experience for both buyers and sellers, leveraging modern web technologies to enhance property visibility and streamline transactions.',
+      link: 'https://land-house.vercel.app/',
+    },
+    {
       title: 'Country Data Application',
       description: 'The Country Data Application is a dynamic React-based web application that provides users with comprehensive information about countries worldwide. ',
       additionalInfo: 'Utilizing the REST Countries API, the application allows users to explore key details such as population, area, region, and subregion of various countries, all displayed through an intuitive and visually appealing interface.',
